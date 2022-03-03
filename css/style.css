@@ -1,0 +1,547 @@
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    
+    height: 5020px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #464646;
+    background: #f5f5f5;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+
+     position: relative;
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+
+    position: static;
+    width: 165px;
+    height: 24px;
+    left: 0;
+    top: 32px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.email {
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+.apresentacao {
+    margin: 0 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 368px;
+    left: 152px;
+    top: 120px;
+}
+
+.titulo-descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 751px;
+    height: 246px;
+    left: 0px;
+    top: 61px;
+}
+
+.titulo {
+    position: static;
+    width: 751px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 61px;
+    margin: 24px 0px;
+
+}
+
+.descricao {
+    position: static;
+    width: 751px;
+    height: 52px;
+    left: 0px;
+    top: 146px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 10px 0px;
+    align-self: stretch;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 467px;
+    height: 24px;
+    left: 0px;
+    top: 222px;
+    margin: 24px 0px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 32px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+}
+
+#sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    position: static;
+    width: auto;
+    height: 300px;
+    left: 0px;
+    top: 520px;
+    background: #eaf2fd;
+    margin: 32px 0px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 355px;
+    left: 152px;
+    top: 64px;
+    margin: 10px 0px;
+}
+
+.titulo-sobre {
+    position: static;
+    width: 166px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 16px 0px;
+}
+
+.texto-sobre {
+    position: static;
+    width: 751px;
+    height: 133px;
+    left: 0px;
+    top: 54px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+    margin: 16px 0px;
+
+}
+
+#skills-hobbies {
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    height: 1245px;
+    left: 0px;
+    top: 935px;
+}
+
+.titulo-skill {
+    margin: 32px 0px;
+    position: static;
+    width: 82px;
+    height: 38px;
+    left: 527px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    position: static;
+    width: 1136px;
+    height: 174px;;
+    left: 0;
+    top: 70px;
+    margin: 32px 0;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    padding: 16px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    margin: 0 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.titulo-hobbie {
+    margin: 32px 0px;
+    position: static;
+    width: 82px;
+    height: 38px;
+    left: 527px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    position: static;
+    width: 1136px;
+    height: 174px;;
+    left: 0;
+    top: 70px;
+    margin: 32px 0;
+}
+
+.hobbie {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    padding: 10px;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    margin: 0 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.figuras {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    position: static;
+}
+
+#formacao {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px;
+    position: static;
+    width: 1440px;
+    height: 581px;
+    left: 0;
+    top: 664px;
+    background: #eaf2fd;
+    margin: 88px 0;
+
+}
+
+.texto-formacao {
+    position: static;
+    width: 330px;
+    height: 38px;
+    top: 82px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 32px 0;
+
+}
+
+.formacoes {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 347px;
+    left: 152px;
+    top: 152px;
+    margin: 32px 0px;
+}
+
+.curso {
+    
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 368px;
+    height: 347px;
+    margin: 0px 16px;
+}
+
+.figura-formacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 310px;
+    height: 210px;
+    position: static;
+    border-radius: 10px;
+    background: #ffffff;
+    margin:0px;
+}
+
+
+.nome-curso {
+    position: static;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 30px 8px 2px 8px;
+    
+}
+
+.periodo-curso {
+    position: static;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 10px 8px 2px 8px;
+    
+}
+
+#projetos {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 908px;
+    left: 152px;
+    top: 2512px;
+    margin: 220px 225px;
+}
+
+.texto-experiencia {
+    position: static;
+    width: 364px;
+    height: 38px;
+    left: 386px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin:0px;
+}
+
+.itens {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 908px;
+    left: 0px;
+    top: 70px;
+    margin: 32px 0px;
+}
+
+.experiencia1 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 406px;
+    left: 0px;
+    top: 0px;
+    margin:0px;
+}
+
+.print {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: static;
+    width: 572px;
+    height: 326px;
+    left: 0px;
+    top: -10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0px 36px;
+}
+
+.infos {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 348px;
+    height: 112px;
+    left: 788px;
+    top: 147px;
+    margin: 0px 16px;
+}
+
+.nome-projeto {
+    position: static;
+    width: 348px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    align-self: stretch;
+    margin: 2px 0px;
+}
+
+.descricao-projeto {
+    position: static;
+    width: 348px;
+    height: 19px;
+    left: 0px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: stretch;
+    margin: 1px 0px;
+}
+
+.botao-white {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 103px;
+    height: 19px;
+    left: 16px;
+    top: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    margin: 0px 10px;
+    text-decoration: none;
+
+}
+
+.botao-blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 103px;
+    height: 19px;
+    left: 16px;
+    top: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    border: none;
+    background: #2a7ae4;
+    margin: 0px 10px;
+    text-decoration: none;
+}
