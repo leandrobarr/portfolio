@@ -56,6 +56,7 @@ nav a {
 
 .email {
     font-weight: bold;
+    margin: 0px 10px;
 }
 
 nav a:hover {
@@ -397,18 +398,17 @@ nav a:hover {
 }
 
 #projetos {
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
     position: static;
     width: 1136px;
-    height: 908px;
+    height: 1816px;
     left: 152px;
-    top: 2512px;
-    margin: 220px 225px;
+    top: 2212px;
+    margin: 222px 225px 30px;
 }
 
 .texto-experiencia {
@@ -425,21 +425,20 @@ nav a:hover {
 }
 
 .itens {
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     position: static;
     width: 1136px;
-    height: 908px;
+    height: 1816px;
     left: 0px;
     top: 70px;
-    margin: 32px 0px;
+    margin: 0px;
 }
 
 .experiencia1 {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -467,7 +466,7 @@ nav a:hover {
 }
 
 .infos {
-    border: 1px solid red;
+   
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -490,7 +489,7 @@ nav a:hover {
     font-size: 22px;
     line-height: 26px;
     align-self: stretch;
-    margin: 2px 0px;
+    margin: 0px 10px;
 }
 
 .descricao-projeto {
@@ -503,8 +502,22 @@ nav a:hover {
     font-size: 16px;
     line-height: 19px;
     align-self: stretch;
-    margin: 1px 0px;
+    margin: 10px 10px;
 }
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 560px;
+    height: 51px;
+    left: 0px;
+    top: 61px;
+    margin: 25px 0px;
+}
+
 
 .botao-white {
     display: flex;
@@ -513,14 +526,25 @@ nav a:hover {
     align-items: center;
     padding: 16px;
     position: static;
-    width: 103px;
+    width: 116px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #2a7ae4;
+    box-sizing: border-box;
+    color: #2a7ae4;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 16px 0px 0px;
+}
+
+.link {
+    position: static;
+    width: 84px;
     height: 19px;
     left: 16px;
     top: 16px;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2a7ae4;
-    border: 1px solid #2a7ae4;
     margin: 0px 10px;
     text-decoration: none;
 
@@ -531,17 +555,311 @@ nav a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 16px 55px;
     position: static;
-    width: 103px;
-    height: 19px;
-    left: 16px;
-    top: 16px;
+    width: 105px;
+    height: 51px;
+    left: 132px;
+    top: 0px;
+    background: #2a7ae4;
+    color: #ffffff;
     font-size: 16px;
     line-height: 19px;
-    color: #ffffff;
-    border: none;
-    background: #2a7ae4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 26px;
+    border: #2a7ae4;
+}
+
+.link1 {
+    position: static;
+    width: 73px;
+    height: 19px;
+    left: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
     margin: 0px 10px;
     text-decoration: none;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
+.experiencia2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1136px;
+    height: 406px;
+    left: 0px;
+    top: 470px;
+    margin:0px;
+}
+
+.infos2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 368px;
+    height: 138px;
+    left: 0px;
+    top: 134px;
+    margin: 0px 16px;
+}
+
+.descricao-projeto2 {
+     position: static;
+     width: 348px;
+    height: 19px;
+    left: 0px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: stretch;
+    padding: 25px 0px 0px;
+    margin: 10px 10px 0px 10px;
+}
+
+.descricao-projeto3 {
+     position: static;
+     width: 348px;
+    height: 19px;
+    left: 0px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: stretch;
+    margin: 10px 0px 0px 10px;
+}
+
+
+#contato {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    position: static;
+    width: 1440px;
+    height: 788px;
+    left: 0px;
+    top: 0px;
+    background: #eaf2fd;
+    margin: 0px 0px;
+}
+
+.form-contato {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 0px 0px;
+    position: static;
+    width: 1136px;
+    height: 660px;
+    left: 152px;
+    top: 64px;
+    margin: 10px 0px;
+}
+
+.img-contato {
+    position: static;
+    width: 464px;
+    height: 660px;
+    left: 0px;
+    top: 65.5px;
+    background: #ededed;
+    margin: 0px;
+}
+
+.formulario {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 656px;
+    height: 660px;
+    left: 480px;
+    top: 64px;
+    margin: 0px 16px;
+}
+
+.topo-contato {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 656px;
+    height: 84px;
+    top: 0px;
+    margin: 0px;
+}
+
+.titulo-contato {
+    position: static;
+    width: 123px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0px;
+}
+
+.descricao-contato {
+    position: static;
+    width: 656px;
+    height: 38px;
+    left: 0px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 15px 0px;
+}
+
+.campos-contato {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 656px;
+    height: 447px;
+    left: 0px;
+    top: 116px;
+    margin: 32px 0px;
+}
+
+.nome-contato {
+    position: static;
+    width: 650px;
+    height: 56px;
+    left: calc(50% - 650px/2);
+    top: 0px;
+    background: #ffffff;
+    border-radius: 4px;
+    align-self: stretch;
+    border: #ffffff;
+    margin: 0px 0px 32px 0px;
+}
+
+.email-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 650px;
+    height: 56px;
+    left: 0px;
+    top: 88px;
+    background: #ffffff;
+    border-radius: 4px;
+    align-self: stretch;
+    border: #ffffff;
+    margin: 0px 0px 32px 0px;
+
+}
+
+.assunto-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 650px;
+    height: 56px;
+    left: 0px;
+    top: 176px;
+    background: #ffffff;
+    border-radius: 4px;
+    align-self: stretch;
+    border: #ffffff;
+    margin: 0px 0px 32px 0px;
+
+}
+
+.mensagem-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 650px;
+    height: 183px;
+    left: calc(50% - 650px/2) ;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 4px;
+    align-self: stretch;
+    border: #ffffff;
+    margin: 32px 0px 0px 0px;
+}
+
+.enviar-formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 165px;
+    height: 51px;
+    left: 0px;
+    top: 545px;
+    background: #2a7ae4;
+    margin: 42px 0px 0px 0px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    border: #2a7ae4;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    position: static;
+    width: 1505px;
+    height: 102px;
+    left: 0px;
+    top: 788px;
+    background: #ffffff;
+    margin: 0px 0px;
+    
+}
+
+.copyright {
+    position: static;
+    width: 434px;
+    height: 38px;
+    left: 603px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0px 10px;
+}
+

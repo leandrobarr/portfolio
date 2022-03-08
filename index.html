@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Leandro de Barros</title>
         <link rel="stylesheet" href="css/reset.css"> 
+        <link rel="stylesheet" href="css/reponsive.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -14,12 +15,12 @@
                <h3 class="logo"><img src="imagens/auto_awesome_black_24dp 1.png">Leandro de Barros</h3>
                 <nav>
                     <ul>
-                        <li><a href="#sobre-mim">Sobre mim</a></li>
-                        <li><a href="#skills-hobbies">Skills</a></li>
-                        <li><a href="#skills-hobbies">Hobbies</a></li>
-                        <li><a href="#formacao">Formação</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li class="email"><a href="#contato">leandrobarr@yahoo.com.br</a></li>
+                        <li><a class="menu" href="#sobre-mim">Sobre mim</a></li>
+                        <li><a class="menu" href="#skills-hobbies">Skills</a></li>
+                        <li><a class="menu" href="#skills-hobbies">Hobbies</a></li>
+                        <li><a class="menu" href="#formacao">Formação</a></li>
+                        <li><a class="menu" href="#projetos">Projetos</a></li>
+                        <a class="email" href="#contato">leandrobarr@yahoo.com.br</a>
                     </ul>
                 </nav>
             </div>
@@ -94,12 +95,96 @@
                         <div class="infos">
                             <p class="nome-projeto">Decodificador de Texto</p>
                             <p class="descricao-projeto">Challenge Alura Codificador</p>
-                            <a href="https://github.com/leandrobarr/codificadordefrases.github.io" target="_blank"><button class="botao-white">Repositório</button></a>
-                            <a href="https://leandrobarr.github.io/codificadordefrases.github.io/" target="_blank"><button class="botao-blue">Ver Demo</button></a>
+                            <div class="botoes">
+                                    <a class="link" href="https://github.com/leandrobarr/codificadordefrases.github.io" target="_blank">
+                                        <button class="botao-white">Repositório</button>
+                                    </a>
+                                    <a class="link" href="https://leandrobarr.github.io/codificadordefrases.github.io/" target="_blank">
+                                        <button class="botao-blue">Demo</button>
+                                    </a>
+                            </div>
                         </div>
+                    </div>
+                    <div class="experiencia2">
+                        <div class="infos">
+                            <p class="nome-projeto">Jogo Criado com HTML, CSS e JavaScript</p>
+                            <p class="descricao-projeto2">Challenge Oracle</p>
+                            <div class="botoes">
+                                <a class="link" href="https://github.com/leandrobarr/jogo-da-forca.github.io" target="_blank">
+                                    <button class="botao-white">Repositório</button>
+                                </a>
+                                <a class="link" href="https://leandrobarr.github.io/jogo-da-forca.github.io/" target="_blank">
+                                    <button class="botao-blue">Demo</button>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="./imagens/jogo-da-forca.png" alt="logo jogo da forca" class="print">
+                    </div>
+                    <div class="experiencia1">
+                        <img src="./imagens/Api-Rest-produtos.png" alt="logo codificador" class="print">
+                        <div class="infos">
+                            <p class="nome-projeto">Api Rest de cadastro de produtos</p>
+                            <p class="descricao-projeto">Api Rest em Java com Swagger</p>
+                            <div class="botoes">
+                                <a class="link" href="https://github.com/leandrobarr/produtos-apirest" target="_blank">
+                                    <button class="botao-white">Repositório</button>
+                                </a>
+                                <a class="link" href="https://ap-produtos.herokuapp.com/swagger-ui.html" target="_blank">
+                                    <button class="botao-blue">Demo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experiencia2">
+                        <div class="infos">
+                            <p class="nome-projeto">Projeto Netflix</p>
+                            <p class="descricao-projeto3">Projeto que recria a interface da netflix</p>
+                            <div class="botoes">
+                                <a class="link" href="https://github.com/leandrobarr/netflix" target="_blank">
+                                    <button class="botao-white">Repositório</button>
+                                </a>
+                                <a class="link" href=" https://leandrobarr.github.io/netflix/" target="_blank">
+                                    <button class="botao-blue">Demo</button>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="./imagens/netflix.png" alt="logo jogo da forca" class="print">
                     </div>
                </div>
             </section>
+            <section id="contato">
+                <div class="form-contato">
+                    <img src="./imagens/img-contato.png" alt="imagem contato" class="img-contato">
+                    <div class="formulario">
+                        <div class="topo-contato">
+                            <h2 class="titulo-contato">Contato</h2>
+                            <p class="descricao-contao">Quer entrar em contato comigo?<br>
+                                Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                            </p>
+                        </div>
+                        <div class="campos-contato">
+                        <form>
+                            <label for="nome"></label>
+                            <input type="text" class="nome-contato" required="" placeholder="Nome">
+                        
+                            <label for="email"></label>
+                            <input type="email" class="email-contato" required="" placeholder="E-mail">
+                        
+                            <label for="assunto"></label>
+                            <input type="text" class="assunto-contato" required="" placeholder="Assunto">
+                        
+                            <label for="mensagem"></label>
+                            <input type="text" class="mensagem-contato" required="" placeholder="Mensagem">
+                            <input type="submit" value="Enviar Mensagem" class="enviar-formulario">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="rodape">
+                <p class="copyright">© Copyright Desenvolvido por Leandro de Barros<br>
+                     2022</p>
+            </footer>
         </main>
     </body>
 </html> 
